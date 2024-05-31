@@ -77,7 +77,7 @@ h2 {
         
     }
     
-fixed-buttom {
+footer nav ul li {
     list-style-type: none;
 }
 
@@ -86,4 +86,16 @@ fixed-buttom {
     margin-top: 20px;
     width: auto;
     height: 500px;
+}
+
+.conteiner{
+    max-width: 960;
+    margin: 0 auto;
+}
+
+form{
+    background-color: darkgreen;
+    max-width: 500px;
+    height: 450px;
+    padding: 40px;
 }
