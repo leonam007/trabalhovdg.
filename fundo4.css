@@ -57,7 +57,7 @@ header nav ul li{
 h2 {
     color: aliceblue;
         position: absolute;
-        top: 22%;
+        top: 25%;
         left: 15%;
         transform: translate(-50%, -50%);
       }
@@ -81,10 +81,14 @@ footer nav ul li {
     list-style-type: none;
 }
 
-.img{
-    margin-left: 50px;
-    margin-top: 20px;
-    width: auto;
-    height: 400px;
+.conteiner{
+    max-width: 960;
+    margin: 0 auto;
 }
 
+form{
+    background-color: darkgreen;
+    max-width: 500px;
+    height: 450px;
+    padding: 40px;
+}

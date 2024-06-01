@@ -57,14 +57,14 @@ header nav ul li{
 h2 {
     color: aliceblue;
         position: absolute;
-        top: 22%;
+        top: 25%;
         left: 15%;
         transform: translate(-50%, -50%);
       }
       p {
         color: aliceblue;
         position: absolute;
-        top: 30%;
+        top: 33%;
         left: 20%;
         transform: translate(-50%, -50%);
       }
@@ -80,11 +80,3 @@ h2 {
 footer nav ul li {
     list-style-type: none;
 }
-
-.img{
-    margin-left: 50px;
-    margin-top: 20px;
-    width: auto;
-    height: 400px;
-}
-
