@@ -1,122 +1,122 @@
-*
-{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
+    *
+    {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    }
 
-body{
-    background-color: black;
-    height: 100vh;
-}
+    body{
+        background-color: black;
+        height: 100vh;
+    }
 
-.interface{
-    max-width: 1280;
-    margin: 0 auto;
-}
+    .interface{
+        max-width: 1280;
+        margin: 0 auto;
+    }
 
-.flex{
-    display: flex;
-}
-
-header{
-    padding: 40px 4%;
-    margin-left: 350px;
-    margin-top: -50px;
-}
-
-
-
-header> .interface{
+    .flex{
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-}
+    }
 
-header a{
-    color: rgb(84, 84, 84);
-    text-decoration: none;
-    display: inline-block;
-    transition: .2s;
-}
+    header{
+        padding: 40px 4%;
+        margin-left: 350px;
+        margin-top: -50px;
+    }
 
-header a:hover{
-    color:aliceblue;
-    transform: scale(1.05);
-}
 
-header nav ul{
-    list-style-type: none;
-}
 
-header nav ul li{
-    display: inline-block;
-    padding: 0 40px;
-}
+    header> .interface{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    }
 
-h2 {
-    color: aliceblue;
-        position: absolute;
-        top: 22%;
-        left: 20%;
-        transform: translate(-50%, -50%);
-      }
-      h6 {
+    header a{
+        color: rgb(84, 84, 84);
+        text-decoration: none;
+        display: inline-block;
+        transition: .2s;
+    }
+
+    header a:hover{
+        color:aliceblue;
+        transform: scale(1.05);
+    }
+
+    header nav ul{
+        list-style-type: none;
+    }
+
+    header nav ul li{
+        display: inline-block;
+        padding: 0 40px;
+    }
+
+    h2 {
         color: aliceblue;
-        position: absolute;
-        top: 30%;
-        left: 25%;
-        transform: translate(-50%, -50%);
-      }
+            position: absolute;
+            top: 22%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+        }
+        h6 {
+            color: aliceblue;
+            position: absolute;
+            top: 30%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+        }
 
-.btn-social button{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: none;
-    background-color: green;
-    font-size: 22px;
-    cursor: pointer;
-    margin: 0 5px;
-    transition: 2s;
-}
+    .btn-social button{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: none;
+        background-color: green;
+        font-size: 22px;
+        cursor: pointer;
+        margin: 0 5px;
+        transition: 2s;
+    }
 
-button:hover{
-    box-shadow: 0px 0px 8px green;
-    transform: scale(1.05);
-}
+    button:hover{
+        box-shadow: 0px 0px 8px green;
+        transform: scale(1.05);
+    }
 
-.foto1 {
-    margin-left: 1000px;
-    margin-top: 5px;
-}
+    .foto1 {
+        margin-left: 1000px;
+        margin-top: 5px;
+    }
 
-footer{
-    padding: 10px 4%;
-    box-shadow: 0 0 40px 10px rgba(255, 248, 220, 0.248);
-}
+    footer{
+        padding: 10px 4%;
+        box-shadow: 0 0 40px 10px rgba(255, 248, 220, 0.248);
+    }
 
-footer .flex{
-    justify-content: space-between;
-}
+    footer .flex{
+        justify-content: space-between;
+    }
 
-footer .line-footer{
-    padding: 10px 0;
-}
+    footer .line-footer{
+        padding: 10px 0;
+    }
 
-.borda{
-    border-bottom: 2px solid white;
-}
+    .borda{
+        border-bottom: 2px solid white;
+    }
 
-footer .line-footer p i{
-    color: aliceblue;
-    font-size: 22px;
-}
+    footer .line-footer p i{
+        color: aliceblue;
+        font-size: 22px;
+    }
 
-footer .line-footer p a{
-    color: aliceblue;
-}
+    footer .line-footer p a{
+        color: aliceblue;
+    }
 
