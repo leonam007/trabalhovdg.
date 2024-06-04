@@ -64,7 +64,15 @@
             left: 22%;
             transform: translate(-50%, -50%);
         }
-        h6 {
+        h5 {
+            color: aliceblue;
+            position: absolute;
+            top: 30%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+        }
+
+        h {
             color: aliceblue;
             position: absolute;
             top: 30%;
